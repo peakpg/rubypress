@@ -1,6 +1,9 @@
+# test/dummy/config/environments/production.rb
 Dummy::Application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
 
+  # Override the default site name specified by Rubypress
+  config.rubypress.site_name = "Acme Anvils LLC"
+  
   # Code is not reloaded between requests.
   config.cache_classes = true
 

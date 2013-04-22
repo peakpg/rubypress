@@ -9,10 +9,9 @@ module Rubypress
     # To specify a different engine path, uncomment the following:
     # engine_name "admin"
 
-    config.rubypress = ActiveSupport::OrderedOptions.new
-  
+    config.rubypress = ActiveSupport::OrderedOptions.new  
     config.before_configuration do |app|
-      app.config.rubypress.footer = "Made with Rubypress"
+      app.config.rubypress.site_name = "A Rubypress Site"
     end
     
     # Engines can specify middleware that will be invoked for 
