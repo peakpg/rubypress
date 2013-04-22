@@ -1,0 +1,19 @@
+<%# app/views/layouts/rubypress/application.html.erb %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rubypress</title>
+  <%= stylesheet_link_tag    "rubypress/application", media: "all" %>
+  <%= javascript_include_tag "rubypress/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= link_to "Home", main_app.root_url %> |
+<%= link_to "Add New", new_page_path %> |
+<%= link_to "Pages", pages_path %>
+<%= yield %>
+
+</body>
+</html>
+
+
