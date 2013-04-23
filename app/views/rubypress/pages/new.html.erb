@@ -1,0 +1,7 @@
+<h1>Add New Page</h1>
+<%= form_for(@page) do |f|%>
+ 	Name: <%= f.text_field :name %> <br />
+ 	Path: <%= f.text_field :path %> <br />
+ 	Content: <%= f.text_area :content %> <br />
+	<%= f.button "Save" %>
+<% end %>
