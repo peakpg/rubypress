@@ -9,3 +9,4 @@ module Rubypress
     end
   end
 end
+
