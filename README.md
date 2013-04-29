@@ -6,8 +6,8 @@ Since the presentation is iteratively developed, many of the code snippets will 
 
 ## References 
 
- - Slides for the talk can be found here:
- - To comment on the talk go here: 
+ - Slides for the talk can be found here: [Coming soon!]
+ - To comment on the talk go here: http://speakerrate.com/talks/22061-creating-mountable-engines
  - To tweet @ or about me / the talk: @peakpg
 
 ## Long Form Installation
