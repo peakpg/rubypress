@@ -1,7 +1,8 @@
 # test/dummy/config/environments/production.rb
 Dummy::Application.configure do
 
-  # Override the default site name specified by Rubypress
+  # Override the default site name 
+  # specified by Rubypress
   config.rubypress.site_name = "Acme Anvils LLC"
   
   # Code is not reloaded between requests.
