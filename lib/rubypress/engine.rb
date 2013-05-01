@@ -1,7 +1,7 @@
 require 'rack/cache'
 require 'rubypress/route_extensions'
 
-# lib/rubypress/engines.rb
+# lib/rubypress/engine.rb
 module Rubypress
   class Engine < ::Rails::Engine
     isolate_namespace Rubypress
